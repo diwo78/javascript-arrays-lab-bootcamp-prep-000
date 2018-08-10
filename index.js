@@ -3,7 +3,7 @@ function beforeEach (arrays){
 }
 var kittens = ["Milo","Otis","Garfield"];
 function destructivelyAppendKitten(Ralph){
-   kittens.push = (Ralph);
+   kittens.push(Ralph);
    return kittens
    
 }
