@@ -2,6 +2,7 @@ function beforeEach (arrays){
  window.kittens = ['Milo','Otis','Garfield']
 }
 var kittens = ["Milo","Otis","Garfield"]
-function destructivelyAppendKitten(name){
-  kittens.push = ("Ralph")
+function destructivelyAppendKitten(){
+   kittens.push = ("Ralph")
+   return kittens
 }
