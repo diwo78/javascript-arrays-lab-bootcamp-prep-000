@@ -1,4 +1,4 @@
 function beforeEach (arrays){
  window.kittens = ['Milo','Otis','Garfield']
 }
-var kittens = 
+var kittens = ["Milo","Otis","Garfield"]
